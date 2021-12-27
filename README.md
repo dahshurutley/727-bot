@@ -12,3 +12,5 @@ I've gotten a lot of insight from the following stackoverflow links:
   
   
 </ul>
+
+Without the help from this post I wouldn't have been able to create this bot to begin, all credit goes to David-Z!, in addition to multiple sources on the asyncio module. 
