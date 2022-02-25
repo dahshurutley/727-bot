@@ -1,16 +1,6 @@
 # Discord-Bot-Repo
-A discord bot that lets users know it's '7:27 am/pm' 
+Just a fun Discord Bot I made, this is a personal project that I will continously update here. 
 
-<h1> Sources! </h1> 
+<h1> Sources </h1>
 
-I've gotten a lot of insight from the following stackoverflow links: 
-
-<ul>
-  
-  <li> https://github.com/dahshurutley/password-generator </li>
-  
-  
-  
-</ul>
-
-Without the help from this post I wouldn't have been able to create this bot to begin, all credit goes to David-Z!, in addition to multiple sources on the asyncio module. 
+Python API reference, and the examples present (The dice_roll() function is not my code. All other code in this project takes heavy influence by the examples presented within the documentation)
