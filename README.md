@@ -1,4 +1,4 @@
-# 727-bot
+# Discord-Bot-Repo
 A discord bot that lets users know it's '7:27 am/pm' 
 
 <h1> Sources! </h1> 
