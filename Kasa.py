@@ -1,22 +1,11 @@
 import asyncio
 from asyncio.events import get_event_loop
-from ntpath import join
-from socket import timeout
-from typing import final
 from discord.ext import commands, tasks 
 import discord
 from discord import message
 import random
 import string
 import requests
-# Notes: 
-    # A class is a structure that allows you to group together a set of properties (called attributes) 
-    # Functions (called methods) manipulate those properties.
-    # Most classes will need the constructor method (__init__) to initialize the class’s attributes.
-    # Define with a varrible and call each method attatched to the class
-    # Calling previous methods within a new method only requires one positional argument eg:
-        # self.width(self) - Wrong
-        # self.width() - Correct
 
 def quotes():
  
