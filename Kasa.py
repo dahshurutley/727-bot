@@ -34,8 +34,6 @@ def fox():
     foxxy = str(json_data['image'])
     return(foxxy)
 
-def waifu_choices():
-    return f'SFW Categories:\n***Waifu Neko Shinobu Megumin\nBully Cuddle Cry Hug\nAwoo Kiss Lick Pat\nSmug Bonk Yeet Blush\nSmile Wave High Five\nHandhold Nom Bite Glomp\nSlap Kill Kick Happy\nWink Poke Dance Cringe***\n\nNSFW Choices:\n***Waifu Trap Neko Blowjob ***'
 
 class MyClient(discord.Client):
     
@@ -219,16 +217,8 @@ class MyClient(discord.Client):
             finally:
                 await message.channel.send(waifuu)
         
-        if message.content.startswith('!nsfw'):
-            await message.channel.send('Use !choices for all possible Tags!\nPlease Enter A Tag: ')
-            await waifu_nsfw()
 
-        if message.content.startswith('!waifu'):
-            await message.channel.send('Use !choices for all possible Tags!\nPlease Enter A Tag: ')
-            await waifu()
-        
-        if message.content.startswith('!choices'):
-            await message.channel.send(waifu_choices())
+      
     # -----------------------------------------------------------------------------------------------------------------
 
 
